@@ -1,1 +1,67 @@
+main {
+    margin: 20px;
+    padding: 20px;
+    width: auto;
+}
 
+table {
+    border: 1px solid #3399cc;
+    border-spacing: 0;
+    width: 80%;
+}
+
+td {
+    border: 1px solid #3399cc;
+    padding: 5px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: lightblue;
+}
+
+caption {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+thead {
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+thead th {
+    background-color: gray;
+    font-size: 30px;
+}
+
+.color {
+    background-color: lightgray;
+    color: darkblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+tfoot {
+    background-color: darkgray;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+tfoot td {
+    background-color: darkgray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    font-family: georgia, "times new roman", serif;
+    font-size: 75%;
+    font-style: italic;
+    margin-left: 190px;
+    padding: 20px;
+    text-align: center;
+}
