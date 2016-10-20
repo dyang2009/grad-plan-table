@@ -32,7 +32,7 @@ thead {
 }
 
 thead th {
-    background-color: gray;
+    background-color: darkgray;
     font-size: 30px;
 }
 
@@ -44,15 +44,15 @@ thead th {
 }
 
 tfoot {
-    background-color: darkgray;
-    color: darkblue;
+    background-color: darkslategrey;
+    color: lightblue;
     font-size: 20px;
     font-weight: bold;
     text-align: right;
 }
 
 tfoot td {
-    background-color: darkgray;
+    background-color: darkslategray;
     font-size: 20px;
     font-weight: bold;
 }
